@@ -15,7 +15,7 @@
 # along with this programe.  If not, see <http://www.gnu.org/licenses/>.
 
 from django.conf import settings
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 
 INPLACEEDIT_EDIT_EMPTY_VALUE = (getattr(settings, 'INPLACEEDIT_EDIT_EMPTY_VALUE', None) and

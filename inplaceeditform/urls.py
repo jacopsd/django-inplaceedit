@@ -16,7 +16,8 @@
 from inplaceeditform.views import save_ajax, get_field
 
 try:
-    from django.conf.urls import url
+    from django.urls import re_path
+    url = re_path
 except ImportError:  # Django < 1.4
     from django.conf.urls.defaults import patterns, url
 
